@@ -1,4 +1,4 @@
 package PACKAGE_NAME;
 
-public class OPP12 {
+public class MainTime {
 }

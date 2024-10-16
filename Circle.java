@@ -1,4 +1,4 @@
 package PACKAGE_NAME;
 
-public class OPP16 {
+public class myCricle {
 }

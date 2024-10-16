@@ -1,4 +1,4 @@
 package PACKAGE_NAME;
 
-public class OPP18 {
+public class Time {
 }
