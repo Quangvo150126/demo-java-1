@@ -1,18 +1,21 @@
 public class OPP11Test {
     public static void main(String[] args) {
-        OPP11 c1 = new OPP11();
-        System.out.println("Circle c1 radius: " + c1.getRadius());
-        System.out.println("Circle c1 area: " + c1.getArea());
-        System.out.println("Circle c1 color: " + c1.getColor());
+        // Declare an instance of Circle class called c1.
+        // Construct the instance c1 by invoking the "default" constructor
+        // which sets its radius and color to their default value.
+        Circle c1 = new Circle();
+        // Invoke public methods on instance c1, via dot operator.
+        System.out.println("The circle has radius of "
+                + c1.getRadius() + " and area of " + c1.getRadius());
+        //The circle has radius of 1.0 and area of 3.141592653589793
 
-        // Test overloaded constructor
-        OPP11 c2 = new OPP11(2.5);
-        System.out.println("Circle c2 radius: " + c2.getRadius());
-        System.out.println("Circle c2 area: " + c2.getArea());
-        System.out.println("Circle c2 color: " + c2.getColor());
-
-        // Test toString method
-        System.out.println(c1);
-        System.out.println(c2);
+        // Declare an instance of class circle called c2.
+        // Construct the instance c2 by invoking the second constructor
+        // with the given radius and default color.
+        Circle c2 = new Circle(2.0);
+        // Invoke public methods on instance c2, via dot operator.
+        System.out.println("The circle has radius of "
+                + c2.getRadius() + " and area of " + c2.getRadius());
+        //The circle has radius of 2.0 and area of 12.566370614359172
     }
-}
+    }
